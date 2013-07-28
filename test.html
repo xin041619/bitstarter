@@ -1,0 +1,29 @@
+<html>
+<head>
+<link href="/jquery-infinite-carousel/jquery.infinite-carousel.css" rel="stylesheet" type="text/css">
+<!-- jquery plugin for carousel -->
+<!-- <script type="text/javascript" src="https://www.dropbox.com/sh/84oo94003sx84q5/Q-Ow4AQ4Co/jquery.infinite-carousel.js"> </script> -->
+
+<script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+<script type="text/javascript" src="/jquery-infinite-carousel/jquery.infinite-carousel.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery('#viewport').carousel('#simplePrevious', '#simpleNext');  
+});
+</script>
+</head>
+<body>
+<div id="viewport">
+<ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+</ul>
+</div>
+<a href="#" id="simplePrevious">Previous</a>
+<a href="#" id="simpleNext">Next</a>
+</body>
+</html>
